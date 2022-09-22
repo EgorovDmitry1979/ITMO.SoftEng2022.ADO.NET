@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="сableLinesDataSet1" targetNamespace="http://tempuri.org/сableLinesDataSet1.xsd" xmlns:mstns="http://tempuri.org/сableLinesDataSet1.xsd" xmlns="http://tempuri.org/сableLinesDataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="сableLinesDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="сableLinesDataSet1" msprop:Generator_DataSetName="сableLinesDataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Excavation" msprop:Generator_RowEvHandlerName="ExcavationRowChangeEventHandler" msprop:Generator_RowDeletedName="ExcavationRowDeleted" msprop:Generator_RowDeletingName="ExcavationRowDeleting" msprop:Generator_RowEvArgName="ExcavationRowChangeEvent" msprop:Generator_TablePropName="Excavation" msprop:Generator_RowChangedName="ExcavationRowChanged" msprop:Generator_RowChangingName="ExcavationRowChanging" msprop:Generator_TableClassName="ExcavationDataTable" msprop:Generator_RowClassName="ExcavationRow" msprop:Generator_TableVarName="tableExcavation" msprop:Generator_UserTableName="Excavation">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TrenchType" msprop:Generator_ColumnPropNameInRow="TrenchType" msprop:Generator_ColumnPropNameInTable="TrenchTypeColumn" msprop:Generator_ColumnVarNameInTable="columnTrenchType" msprop:Generator_UserColumnName="TrenchType">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TrenchDepth" msprop:Generator_ColumnPropNameInRow="TrenchDepth" msprop:Generator_ColumnPropNameInTable="TrenchDepthColumn" msprop:Generator_ColumnVarNameInTable="columnTrenchDepth" msprop:Generator_UserColumnName="TrenchDepth">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TrenchWidth" msprop:Generator_ColumnPropNameInRow="TrenchWidth" msprop:Generator_ColumnPropNameInTable="TrenchWidthColumn" msprop:Generator_ColumnVarNameInTable="columnTrenchWidth" msprop:Generator_UserColumnName="TrenchWidth">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SandFilling" msprop:Generator_ColumnPropNameInRow="SandFilling" msprop:Generator_ColumnPropNameInTable="SandFillingColumn" msprop:Generator_ColumnVarNameInTable="columnSandFilling" msprop:Generator_UserColumnName="SandFilling">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SandBackfilling" msprop:Generator_ColumnPropNameInRow="SandBackfilling" msprop:Generator_ColumnPropNameInTable="SandBackfillingColumn" msprop:Generator_ColumnVarNameInTable="columnSandBackfilling" msprop:Generator_UserColumnName="SandBackfilling">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
